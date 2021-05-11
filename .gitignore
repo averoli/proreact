@@ -1,2 +1,3 @@
-node_modules/
-.adea/
+/node_modules
+.idea/
+dist
