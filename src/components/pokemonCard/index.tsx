@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Heading from "../Heading";
+import Heading from "../heading";
 
 import s from './PokemonCard.module.scss';
 
