@@ -1,21 +1,23 @@
 import React from 'react';
-import {useRoutes} from 'hookrouter';
+import { useRoutes } from 'hookrouter';
 
-import routes from "./routes";
-import NotFound from "./pages/notfound";
-import Header from "./components/header";
-
-
+import routes from './routes';
+import NotFound from './pages/notfound';
+import Header from './components/header';
+import req from './utils/request';
 
 const App = () => {
-const match = useRoutes(routes)
+  req().then((data) => console.log('####:data', data));
+  const match = useRoutes(routes);
 
   return match ? (
-<>
-  <Header />
-  {match}
-  </>
-  ) : <NotFound />
+    <>
+      <Header />
+      {match}
+    </>
+  ) : (
+    <NotFound />
+  );
 };
 
 export default App;
