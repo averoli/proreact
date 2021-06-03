@@ -1,6 +1,10 @@
 import Url from 'url';
 import getUrlWithParamsConfig from "./getUrlWithParamsConfig";
 
+interface IUri{
+  uri: string;
+}
+
 async function req() {
   const uri = Url.format(getUrlWithParamsConfig('getPokemons')
   );
