@@ -6,6 +6,9 @@ In this course, we will create a React app for
 * learning how to work with API and Server-Side Rendering
 * working with a Figma layout
 
+- [Here is a Figma layout](https://www.figma.com/file/6t3nQuLTiNVWKqOMU2snEa/Pokedex?node-id=2%3A5) 
+- [Here is  Final Result].
+
 ## Part 1. Set up React App using Webpack
 * Webpack config
 * Webpack Dev Server && Scripts
